@@ -1,0 +1,14 @@
+{
+  "name": "v2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint ."
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "eslint": "^8.8.0"
+  }
+}

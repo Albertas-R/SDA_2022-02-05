@@ -1,0 +1,47 @@
+npm list -g
+
+npm i -g prettier
+npm uninstall -g prettier
+
+
+--------------------
+Lokaliai
+1.
+npm init
+
+2. 
+npm i eslint
+arba
+npm i -D eslint
+
+3. 
+npm i prettier
+
+
+
+
+-----------------------------
+destytojo postas:
+1. npm init
+2. isirasyti eslint ir prettier packagus
+3. susikurti .eslintrc ir .prettierrc failus konfiguracijoms saugoti
+4. 
+.eslintrc
+.prettierrc
+https://prettier.io/docs/en/integrating-with-linters.html
+https://github.com/prettier/eslint-config-prettier
+https://github.com/prettier/eslint-plugin-prettier
+
+galimos prettier taisykles https://prettier.io/docs/en/options.html
+
+https://eslint.org/docs/user-guide/configuring/language-options#specifying-environments
+
+4.1. eslint susikonfiguruoti, kad naudoti eslint:recommended extension, tai pat environment, kad butu browser ir es6 ijungtas
+5. isirasyti eslint-config-prettier kad isjungti eslint taisykles, kurios konkuruoja su prettier
+6. isirasyti eslint-plugin-prettier kad leistu esintui matyti prettier taisykles
+7. susikonfiguruoti pagal dokumentacija abu
+8. susikurti npm scriptus eslintui paleisti
+9. isbandyti ant savo failu
+
+add node.js to windows path
+add npm to windows path
